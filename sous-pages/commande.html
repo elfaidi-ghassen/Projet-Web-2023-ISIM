@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passer des Commandes</title>
+    <style>
+        footer img {
+        border-radius: 5px;
+        display: inline;
+        margin-left: 0%;
+      }
+        body {
+            font-family: Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 1.4;
+            margin: 0;
+            color: rgb(59, 59, 59);
+        }
+
+        main {
+            width: 70%;
+            margin-left: 15%;
+            padding: 20px;
+        }
+
+        a {
+            color: rgb(59, 59, 59);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: 8px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 98%;
+            padding: 8px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div style="border-radius:10px; background-color: #FFE5D9;">
+            <p style="padding: 10px;">
+                <a href="../index.html">Accueil</a> ≫ <a href="commande.html">Commandes</a>
+            </p>
+        </div>
+        <h1>Passer des Commandes</h1>
+        <form>
+            <fieldset>
+                <legend>Commande</legend>
+
+                <label for="quantity">Quantité de Grenades: (kg)</label>
+                <input type="number" id="quantity" name="quantity" min="1" required placeholder="Ex: 5kg">
+
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required placeholder="Ex: Ghassen Faidi">
+
+                <label for="email">Adresse Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Ex: nom@mail.com">
+
+                <label for="phone">Numéro de Téléphone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Ex: 22-333-444">
+
+                <label for="type">Type de Grenades:</label>
+                <select name="type" id="type" style="padding: 5px 10px">
+                    <option value="gabes">Gabes</option>
+                    <option value="kef">Kef</option>
+                    <option value="testour">Testour</option>
+                </select>
+                <br>
+                <br>
+                <button style="padding: 10px;" type="submit">Passer la Commande</button>
+            </fieldset>
+            </fieldset>
+        </form>
+
+
+    </main>
+  <br><br><br>
+
+    <footer style="background-color: rgb(49, 55, 60); text-align: center; padding: 50px; color: #cdcdcd;">
+
+        <p>Créé avec 💖 par Ghassen Faidi — &copy;2023 </p>
+        <p>Ce site est créé dans le but de l'apprentissage, les droits de toutes les images appartiennent à leurs
+          propriétaires légitimes</p>
+        <table width="100%">
+          <tr>
+            <td>
+            </td>
+            <td>
+    
+              <a href="https://isimsf.rnu.tn/" target="_blank"><img src="../images/isims.png" alt="ISIMS"
+                  style="width: 50px;"></a>
+              <a href="https://www.facebook.com/ghassen.faidi.5" target="_blank"><img src="../images/fb.png" alt="Facebook"
+                  style="width: 50px;"></a>
+              <a href="https://github.com/elfaidi-ghassen" target="_blank"><img src="../images/git.png" alt="Github"
+                  style="width: 50px;"></a>
+            </td>
+            <td>
+    
+            </td>
+          </tr>
+        </table>
+      </footer>
+</body>
+
+</html>
